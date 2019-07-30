@@ -5,3 +5,4 @@ Working through Leetcode problems with Scala
 
 - [x] : TwoSum
 - [x] : AddTwoNumbers
+- [x] : LongestSubstringNonRepeating

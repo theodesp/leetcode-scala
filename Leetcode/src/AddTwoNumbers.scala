@@ -3,8 +3,9 @@ class ListNode(var _x: Int = 0) {
   var x: Int = _x
 }
 object AddTwoNumbers extends App {
-  def apply(l1: ListNode, l2: ListNode): ListNode = {
-    var result = new ListNode(0)
+  def apply(l1: ListNode, l2: ListNode): ListNode = AddTwoNumbers(l1, l2)
+  def AddTwoNumbers(l1: ListNode, l2: ListNode): ListNode = {
+    val result = new ListNode(0)
     var carry = 0
     var left = l1
     var right = l2
