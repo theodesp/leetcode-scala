@@ -20,13 +20,13 @@ object Ch1 extends App {
   def binarySearchRec(list: List[Int], target: Int): Int = {
     @tailrec
     def recur(lo: Int, hi: Int): Int = {
-      if (lo >= hi)
+      if (lo > hi)
         -1
       else {
         val m: Int = ((lo.toLong + hi.toLong) >> 1).toInt
         list(m) match {
           case v if v == target => m
-          case v if v > target  => recur(lo, m)
+          case v if v > target  => recur(lo - 1, m)
           case v if v <= target => recur(m + 1, hi)
         }
       }
