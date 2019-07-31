@@ -1,5 +1,7 @@
 MILL=mill
-TARGET=Leetcode
+ifndef TARGET
+override TARGET = Leetcode
+endif
 FLAGS=--watch
 
 all: compile
