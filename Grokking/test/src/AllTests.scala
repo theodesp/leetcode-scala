@@ -16,5 +16,15 @@ object AllTests extends TestSuite {
           .selectionSort(Array(5, 3, 6, 2, 10))
           .sameElements(List(2, 3, 5, 6, 10)))
     }
+
+    test("quick sort") {
+      assert(Ch4.quickSort(List()).sameElements(List()))
+      assert(Ch4.quickSort(List(2)).sameElements(List(2)))
+      assert(Ch4.quickSort(List(3, 2)).sameElements(List(2, 3)))
+      assert(
+        Ch4
+          .quickSort(Array(5, 3, 6, 2, 10))
+          .sameElements(List(2, 3, 5, 6, 10)))
+    }
   }
 }

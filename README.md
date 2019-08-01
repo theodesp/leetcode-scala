@@ -11,3 +11,4 @@ Working through Leetcode problems with Scala
 - [x] : Binary Search
 - [x] : Selection Sort
 - [x] : Factorial
+- [x] : Quicksort
