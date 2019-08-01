@@ -9,3 +9,4 @@ Working through Leetcode problems with Scala
 
 ## Grokking Algorithms
 - [x] : Binary Search
+- [x] : Selection Sort
