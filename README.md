@@ -8,6 +8,7 @@ Working through Leetcode problems with Scala
 - [x] : LongestSubstringNonRepeating
 - [x] : LongestSubstringNonRepeating
 - [x] : LongestSumArray
+- [x] : MatrixSumAll
 
 ## Grokking Algorithms
 - [x] : Binary Search
