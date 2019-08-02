@@ -40,11 +40,10 @@ object MatrixSumAll extends App {
           loop(out, i + 1, 0, 0)
         else {
           val newSum = sum + out(i)(j)
-          if (i == 0) {
+          if (i == 0)
             out(i)(j) = newSum
-          } else {
+          else
             out(i)(j) = newSum + out(i - 1)(j)
-          }
           loop(out, i, j + 1, newSum)
         }
       }
