@@ -10,6 +10,7 @@ Working through Leetcode problems with Scala
 - [x] : LongestSumArray
 - [x] : MatrixSumAll
 - [x] : QueueReconstruction
+- [x] : CountClickCount
 
 ## Grokking Algorithms
 - [x] : Binary Search
