@@ -17,3 +17,4 @@ Working through Leetcode problems with Scala
 - [x] : Selection Sort
 - [x] : Factorial
 - [x] : Quicksort
+- [x] : DFS
