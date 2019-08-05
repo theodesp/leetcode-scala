@@ -18,3 +18,4 @@ Working through Leetcode problems with Scala
 - [x] : Factorial
 - [x] : Quicksort
 - [x] : DFS
+- [x] : Longest Common Substring
