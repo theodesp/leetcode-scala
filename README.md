@@ -11,6 +11,7 @@ Working through Leetcode problems with Scala
 - [x] : MatrixSumAll
 - [x] : QueueReconstruction
 - [x] : CountClickCount
+- [x] : Defanging an IP Address
 
 ## Grokking Algorithms
 - [x] : Binary Search
