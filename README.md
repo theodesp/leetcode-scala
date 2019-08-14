@@ -12,6 +12,7 @@ Working through Leetcode problems with Scala
 - [x] : QueueReconstruction
 - [x] : CountClickCount
 - [x] : Defanging an IP Address
+- [x] : Reorder Log Files
 
 ## Grokking Algorithms
 - [x] : Binary Search
